@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A008DCC1B0F671900C405CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008DCB1B0F671900C405CE /* AppDelegate.swift */; };
+		5A008DCE1B0F671900C405CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008DCD1B0F671900C405CE /* ViewController.swift */; };
+		5A008DD11B0F671900C405CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DCF1B0F671900C405CE /* Main.storyboard */; };
+		5A008DD31B0F671900C405CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DD21B0F671900C405CE /* Images.xcassets */; };
+		5A008DD61B0F671900C405CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DD41B0F671900C405CE /* LaunchScreen.xib */; };
+		5A008DE21B0F671900C405CE /* Kids_Menu_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008DE11B0F671900C405CE /* Kids_Menu_PlannerTests.swift */; };
+		5A008DEE1B0F754300C405CE /* plusicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DED1B0F754300C405CE /* plusicon.png */; };
+		5A008DF01B0F795800C405CE /* NewProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008DEF1B0F795800C405CE /* NewProfileViewController.swift */; };
+		5A008DF61B0F8AD200C405CE /* bat.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DF51B0F8AD200C405CE /* bat.png */; };
+		5A008DF81B0F8B3300C405CE /* dolphin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DF71B0F8B3300C405CE /* dolphin.png */; };
+		5A008DFA1B0F8BD300C405CE /* butterfly.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DF91B0F8BD300C405CE /* butterfly.png */; };
+		5A008DFC1B0F8CFC00C405CE /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DFB1B0F8CFC00C405CE /* cat.png */; };
+		5A008DFE1B0F8DA300C405CE /* horse.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DFD1B0F8DA300C405CE /* horse.png */; };
+		5A008E001B0F8E3E00C405CE /* penguin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DFF1B0F8E3E00C405CE /* penguin.png */; };
+		5A008E021B0F8EAD00C405CE /* scorpion.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E011B0F8EAD00C405CE /* scorpion.png */; };
+		5A008E041B0F8F0B00C405CE /* squirrel.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E031B0F8F0B00C405CE /* squirrel.png */; };
+		5A008E061B0F8F8700C405CE /* lion.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E051B0F8F8700C405CE /* lion.png */; };
+		5A008E081B0F8FEE00C405CE /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E071B0F8FEE00C405CE /* elephant.png */; };
+		5A008E0A1B0F908200C405CE /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E091B0F908200C405CE /* dog.png */; };
+		5A008E0C1B0F90D600C405CE /* crab.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E0B1B0F90D600C405CE /* crab.png */; };
+		5A008E101B0FE4C800C405CE /* pancakes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E0F1B0FE4C800C405CE /* pancakes.jpg */; };
+		5A008E121B0FE57400C405CE /* bacon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E111B0FE57400C405CE /* bacon.png */; };
+		5A008E181B100D8500C405CE /* toast.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E171B100D8500C405CE /* toast.png */; };
+		5A008E1A1B100EB800C405CE /* friedegg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E191B100EB800C405CE /* friedegg.jpg */; };
+		5A008E1C1B100FE000C405CE /* frenchtoast.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E1B1B100FE000C405CE /* frenchtoast.png */; };
+		5A008E1E1B10113700C405CE /* cereal.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E1D1B10113700C405CE /* cereal.png */; };
+		5A008E201B10119C00C405CE /* bananas.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E1F1B10119C00C405CE /* bananas.png */; };
+		5A008E221B1011DF00C405CE /* strawberries.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E211B1011DF00C405CE /* strawberries.png */; };
+		5A008E241B10128800C405CE /* melon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E231B10128800C405CE /* melon.png */; };
+		5A008E261B10139200C405CE /* breakfastbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E251B10139200C405CE /* breakfastbar.png */; };
+		5A008E281B10142B00C405CE /* scrambledeggs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E271B10142B00C405CE /* scrambledeggs.jpg */; };
+		5A008E2A1B1014B500C405CE /* breakfastsausage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E291B1014B500C405CE /* breakfastsausage.jpg */; };
+		5A008E2C1B10151C00C405CE /* oatmeal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E2B1B10151C00C405CE /* oatmeal.jpg */; };
+		5A008E2E1B1015E000C405CE /* hamsteak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E2D1B1015E000C405CE /* hamsteak.jpg */; };
+		5A008E301B1016FC00C405CE /* yogurt.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E2F1B1016FC00C405CE /* yogurt.png */; };
+		5A008E321B10231100C405CE /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E311B10231100C405CE /* MealTableViewCell.swift */; };
+		5A008E341B10237600C405CE /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E331B10237600C405CE /* MealTableViewController.swift */; };
+		5A008E361B10240F00C405CE /* MenuItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E351B10240F00C405CE /* MenuItemsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A008DDC1B0F671900C405CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A008DBE1B0F671900C405CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A008DC51B0F671900C405CE;
+			remoteInfo = "Kids Menu Planner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A008DC61B0F671900C405CE /* Kids Menu Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kids Menu Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A008DCA1B0F671900C405CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A008DCB1B0F671900C405CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A008DCD1B0F671900C405CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A008DD01B0F671900C405CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A008DD21B0F671900C405CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A008DD51B0F671900C405CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5A008DDB1B0F671900C405CE /* Kids Menu PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kids Menu PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A008DE01B0F671900C405CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A008DE11B0F671900C405CE /* Kids_Menu_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kids_Menu_PlannerTests.swift; sourceTree = "<group>"; };
+		5A008DED1B0F754300C405CE /* plusicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusicon.png; sourceTree = "<group>"; };
+		5A008DEF1B0F795800C405CE /* NewProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProfileViewController.swift; sourceTree = "<group>"; };
+		5A008DF51B0F8AD200C405CE /* bat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat.png; sourceTree = "<group>"; };
+		5A008DF71B0F8B3300C405CE /* dolphin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dolphin.png; sourceTree = "<group>"; };
+		5A008DF91B0F8BD300C405CE /* butterfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly.png; sourceTree = "<group>"; };
+		5A008DFB1B0F8CFC00C405CE /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		5A008DFD1B0F8DA300C405CE /* horse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = horse.png; sourceTree = "<group>"; };
+		5A008DFF1B0F8E3E00C405CE /* penguin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = penguin.png; sourceTree = "<group>"; };
+		5A008E011B0F8EAD00C405CE /* scorpion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scorpion.png; sourceTree = "<group>"; };
+		5A008E031B0F8F0B00C405CE /* squirrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squirrel.png; sourceTree = "<group>"; };
+		5A008E051B0F8F8700C405CE /* lion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lion.png; sourceTree = "<group>"; };
+		5A008E071B0F8FEE00C405CE /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
+		5A008E091B0F908200C405CE /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		5A008E0B1B0F90D600C405CE /* crab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crab.png; sourceTree = "<group>"; };
+		5A008E0F1B0FE4C800C405CE /* pancakes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pancakes.jpg; sourceTree = "<group>"; };
+		5A008E111B0FE57400C405CE /* bacon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bacon.png; sourceTree = "<group>"; };
+		5A008E171B100D8500C405CE /* toast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast.png; sourceTree = "<group>"; };
+		5A008E191B100EB800C405CE /* friedegg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friedegg.jpg; sourceTree = "<group>"; };
+		5A008E1B1B100FE000C405CE /* frenchtoast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frenchtoast.png; sourceTree = "<group>"; };
+		5A008E1D1B10113700C405CE /* cereal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cereal.png; sourceTree = "<group>"; };
+		5A008E1F1B10119C00C405CE /* bananas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bananas.png; sourceTree = "<group>"; };
+		5A008E211B1011DF00C405CE /* strawberries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberries.png; sourceTree = "<group>"; };
+		5A008E231B10128800C405CE /* melon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = melon.png; sourceTree = "<group>"; };
+		5A008E251B10139200C405CE /* breakfastbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breakfastbar.png; sourceTree = "<group>"; };
+		5A008E271B10142B00C405CE /* scrambledeggs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scrambledeggs.jpg; sourceTree = "<group>"; };
+		5A008E291B1014B500C405CE /* breakfastsausage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = breakfastsausage.jpg; sourceTree = "<group>"; };
+		5A008E2B1B10151C00C405CE /* oatmeal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oatmeal.jpg; sourceTree = "<group>"; };
+		5A008E2D1B1015E000C405CE /* hamsteak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamsteak.jpg; sourceTree = "<group>"; };
+		5A008E2F1B1016FC00C405CE /* yogurt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yogurt.png; sourceTree = "<group>"; };
+		5A008E311B10231100C405CE /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		5A008E331B10237600C405CE /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		5A008E351B10240F00C405CE /* MenuItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A008DC31B0F671900C405CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A008DD81B0F671900C405CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A008DBD1B0F671900C405CE = {
+			isa = PBXGroup;
+			children = (
+				5A008DC81B0F671900C405CE /* Kids Menu Planner */,
+				5A008DDE1B0F671900C405CE /* Kids Menu PlannerTests */,
+				5A008DC71B0F671900C405CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A008DC71B0F671900C405CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A008DC61B0F671900C405CE /* Kids Menu Planner.app */,
+				5A008DDB1B0F671900C405CE /* Kids Menu PlannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A008DC81B0F671900C405CE /* Kids Menu Planner */ = {
+			isa = PBXGroup;
+			children = (
+				5A008DCB1B0F671900C405CE /* AppDelegate.swift */,
+				5A008DCD1B0F671900C405CE /* ViewController.swift */,
+				5A008DEF1B0F795800C405CE /* NewProfileViewController.swift */,
+				5A008E331B10237600C405CE /* MealTableViewController.swift */,
+				5A008E311B10231100C405CE /* MealTableViewCell.swift */,
+				5A008E351B10240F00C405CE /* MenuItemsViewController.swift */,
+				5A008DCF1B0F671900C405CE /* Main.storyboard */,
+				5A008DD21B0F671900C405CE /* Images.xcassets */,
+				5A008DD41B0F671900C405CE /* LaunchScreen.xib */,
+				5A008DC91B0F671900C405CE /* Supporting Files */,
+			);
+			path = "Kids Menu Planner";
+			sourceTree = "<group>";
+		};
+		5A008DC91B0F671900C405CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A008E111B0FE57400C405CE /* bacon.png */,
+				5A008E1F1B10119C00C405CE /* bananas.png */,
+				5A008DF51B0F8AD200C405CE /* bat.png */,
+				5A008E251B10139200C405CE /* breakfastbar.png */,
+				5A008E291B1014B500C405CE /* breakfastsausage.jpg */,
+				5A008DF91B0F8BD300C405CE /* butterfly.png */,
+				5A008DFB1B0F8CFC00C405CE /* cat.png */,
+				5A008E1D1B10113700C405CE /* cereal.png */,
+				5A008E0B1B0F90D600C405CE /* crab.png */,
+				5A008E091B0F908200C405CE /* dog.png */,
+				5A008DF71B0F8B3300C405CE /* dolphin.png */,
+				5A008E071B0F8FEE00C405CE /* elephant.png */,
+				5A008E1B1B100FE000C405CE /* frenchtoast.png */,
+				5A008E191B100EB800C405CE /* friedegg.jpg */,
+				5A008E2D1B1015E000C405CE /* hamsteak.jpg */,
+				5A008DFD1B0F8DA300C405CE /* horse.png */,
+				5A008E051B0F8F8700C405CE /* lion.png */,
+				5A008E231B10128800C405CE /* melon.png */,
+				5A008E2B1B10151C00C405CE /* oatmeal.jpg */,
+				5A008E0F1B0FE4C800C405CE /* pancakes.jpg */,
+				5A008DFF1B0F8E3E00C405CE /* penguin.png */,
+				5A008DED1B0F754300C405CE /* plusicon.png */,
+				5A008E011B0F8EAD00C405CE /* scorpion.png */,
+				5A008E271B10142B00C405CE /* scrambledeggs.jpg */,
+				5A008E031B0F8F0B00C405CE /* squirrel.png */,
+				5A008E211B1011DF00C405CE /* strawberries.png */,
+				5A008E171B100D8500C405CE /* toast.png */,
+				5A008E2F1B1016FC00C405CE /* yogurt.png */,
+				5A008DCA1B0F671900C405CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A008DDE1B0F671900C405CE /* Kids Menu PlannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A008DE11B0F671900C405CE /* Kids_Menu_PlannerTests.swift */,
+				5A008DDF1B0F671900C405CE /* Supporting Files */,
+			);
+			path = "Kids Menu PlannerTests";
+			sourceTree = "<group>";
+		};
+		5A008DDF1B0F671900C405CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A008DE01B0F671900C405CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A008DC51B0F671900C405CE /* Kids Menu Planner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A008DE51B0F671900C405CE /* Build configuration list for PBXNativeTarget "Kids Menu Planner" */;
+			buildPhases = (
+				5A008DC21B0F671900C405CE /* Sources */,
+				5A008DC31B0F671900C405CE /* Frameworks */,
+				5A008DC41B0F671900C405CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kids Menu Planner";
+			productName = "Kids Menu Planner";
+			productReference = 5A008DC61B0F671900C405CE /* Kids Menu Planner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A008DDA1B0F671900C405CE /* Kids Menu PlannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A008DE81B0F671900C405CE /* Build configuration list for PBXNativeTarget "Kids Menu PlannerTests" */;
+			buildPhases = (
+				5A008DD71B0F671900C405CE /* Sources */,
+				5A008DD81B0F671900C405CE /* Frameworks */,
+				5A008DD91B0F671900C405CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A008DDD1B0F671900C405CE /* PBXTargetDependency */,
+			);
+			name = "Kids Menu PlannerTests";
+			productName = "Kids Menu PlannerTests";
+			productReference = 5A008DDB1B0F671900C405CE /* Kids Menu PlannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A008DBE1B0F671900C405CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Richard Tyran";
+				TargetAttributes = {
+					5A008DC51B0F671900C405CE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5A008DDA1B0F671900C405CE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5A008DC51B0F671900C405CE;
+					};
+				};
+			};
+			buildConfigurationList = 5A008DC11B0F671900C405CE /* Build configuration list for PBXProject "Kids Menu Planner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A008DBD1B0F671900C405CE;
+			productRefGroup = 5A008DC71B0F671900C405CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A008DC51B0F671900C405CE /* Kids Menu Planner */,
+				5A008DDA1B0F671900C405CE /* Kids Menu PlannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A008DC41B0F671900C405CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A008E221B1011DF00C405CE /* strawberries.png in Resources */,
+				5A008DD11B0F671900C405CE /* Main.storyboard in Resources */,
+				5A008E101B0FE4C800C405CE /* pancakes.jpg in Resources */,
+				5A008DFE1B0F8DA300C405CE /* horse.png in Resources */,
+				5A008E1A1B100EB800C405CE /* friedegg.jpg in Resources */,
+				5A008E2C1B10151C00C405CE /* oatmeal.jpg in Resources */,
+				5A008E261B10139200C405CE /* breakfastbar.png in Resources */,
+				5A008E041B0F8F0B00C405CE /* squirrel.png in Resources */,
+				5A008E0C1B0F90D600C405CE /* crab.png in Resources */,
+				5A008E281B10142B00C405CE /* scrambledeggs.jpg in Resources */,
+				5A008DF61B0F8AD200C405CE /* bat.png in Resources */,
+				5A008DFC1B0F8CFC00C405CE /* cat.png in Resources */,
+				5A008E021B0F8EAD00C405CE /* scorpion.png in Resources */,
+				5A008E0A1B0F908200C405CE /* dog.png in Resources */,
+				5A008E1C1B100FE000C405CE /* frenchtoast.png in Resources */,
+				5A008E2E1B1015E000C405CE /* hamsteak.jpg in Resources */,
+				5A008E121B0FE57400C405CE /* bacon.png in Resources */,
+				5A008DEE1B0F754300C405CE /* plusicon.png in Resources */,
+				5A008DFA1B0F8BD300C405CE /* butterfly.png in Resources */,
+				5A008E061B0F8F8700C405CE /* lion.png in Resources */,
+				5A008DF81B0F8B3300C405CE /* dolphin.png in Resources */,
+				5A008DD61B0F671900C405CE /* LaunchScreen.xib in Resources */,
+				5A008E1E1B10113700C405CE /* cereal.png in Resources */,
+				5A008E301B1016FC00C405CE /* yogurt.png in Resources */,
+				5A008E241B10128800C405CE /* melon.png in Resources */,
+				5A008E001B0F8E3E00C405CE /* penguin.png in Resources */,
+				5A008E2A1B1014B500C405CE /* breakfastsausage.jpg in Resources */,
+				5A008E081B0F8FEE00C405CE /* elephant.png in Resources */,
+				5A008DD31B0F671900C405CE /* Images.xcassets in Resources */,
+				5A008E181B100D8500C405CE /* toast.png in Resources */,
+				5A008E201B10119C00C405CE /* bananas.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A008DD91B0F671900C405CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A008DC21B0F671900C405CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A008E341B10237600C405CE /* MealTableViewController.swift in Sources */,
+				5A008E321B10231100C405CE /* MealTableViewCell.swift in Sources */,
+				5A008DF01B0F795800C405CE /* NewProfileViewController.swift in Sources */,
+				5A008DCE1B0F671900C405CE /* ViewController.swift in Sources */,
+				5A008E361B10240F00C405CE /* MenuItemsViewController.swift in Sources */,
+				5A008DCC1B0F671900C405CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A008DD71B0F671900C405CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A008DE21B0F671900C405CE /* Kids_Menu_PlannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A008DDD1B0F671900C405CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A008DC51B0F671900C405CE /* Kids Menu Planner */;
+			targetProxy = 5A008DDC1B0F671900C405CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A008DCF1B0F671900C405CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A008DD01B0F671900C405CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A008DD41B0F671900C405CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A008DD51B0F671900C405CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A008DE31B0F671900C405CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A008DE41B0F671900C405CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A008DE61B0F671900C405CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kids Menu Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A008DE71B0F671900C405CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kids Menu Planner/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A008DE91B0F671900C405CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kids Menu PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kids Menu Planner.app/Kids Menu Planner";
+			};
+			name = Debug;
+		};
+		5A008DEA1B0F671900C405CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kids Menu PlannerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kids Menu Planner.app/Kids Menu Planner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A008DC11B0F671900C405CE /* Build configuration list for PBXProject "Kids Menu Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A008DE31B0F671900C405CE /* Debug */,
+				5A008DE41B0F671900C405CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A008DE51B0F671900C405CE /* Build configuration list for PBXNativeTarget "Kids Menu Planner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A008DE61B0F671900C405CE /* Debug */,
+				5A008DE71B0F671900C405CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A008DE81B0F671900C405CE /* Build configuration list for PBXNativeTarget "Kids Menu PlannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A008DE91B0F671900C405CE /* Debug */,
+				5A008DEA1B0F671900C405CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A008DBE1B0F671900C405CE /* Project object */;
+}
