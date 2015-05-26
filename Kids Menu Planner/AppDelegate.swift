@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
+    
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 
+        // Initialize Parse.
+        Parse.setApplicationId("qAELi5F1cGY0Xdu2FqzbJKipoaOk4RtjhYuWMpLJ",
+            clientKey: "f2EJnBp05vqBetyVbPdPbweMmMwtFNqGNU4g8QZe")
+        
         UIApplication.sharedApplication().statusBarStyle = .LightContent
         
         return true

@@ -14,7 +14,7 @@
 		5A008DD61B0F671900C405CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DD41B0F671900C405CE /* LaunchScreen.xib */; };
 		5A008DE21B0F671900C405CE /* Kids_Menu_PlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008DE11B0F671900C405CE /* Kids_Menu_PlannerTests.swift */; };
 		5A008DEE1B0F754300C405CE /* plusicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DED1B0F754300C405CE /* plusicon.png */; };
-		5A008DF01B0F795800C405CE /* NewProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008DEF1B0F795800C405CE /* NewProfileViewController.swift */; };
+		5A008DF01B0F795800C405CE /* AddProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008DEF1B0F795800C405CE /* AddProfileViewController.swift */; };
 		5A008DF61B0F8AD200C405CE /* bat.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DF51B0F8AD200C405CE /* bat.png */; };
 		5A008DF81B0F8B3300C405CE /* dolphin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DF71B0F8B3300C405CE /* dolphin.png */; };
 		5A008DFA1B0F8BD300C405CE /* butterfly.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008DF91B0F8BD300C405CE /* butterfly.png */; };
@@ -45,6 +45,20 @@
 		5A008E321B10231100C405CE /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E311B10231100C405CE /* MealTableViewCell.swift */; };
 		5A008E341B10237600C405CE /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E331B10237600C405CE /* MealTableViewController.swift */; };
 		5A008E361B10240F00C405CE /* MenuItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E351B10240F00C405CE /* MenuItemsViewController.swift */; };
+		5A008E391B14DC0500C405CE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E371B14DC0500C405CE /* Bolts.framework */; };
+		5A008E3A1B14DC0500C405CE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E381B14DC0500C405CE /* Parse.framework */; };
+		5A008E3C1B14DC3400C405CE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E3B1B14DC3400C405CE /* AudioToolbox.framework */; };
+		5A008E3E1B14DC3C00C405CE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E3D1B14DC3C00C405CE /* CFNetwork.framework */; };
+		5A008E401B14DC4500C405CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E3F1B14DC4500C405CE /* CoreGraphics.framework */; };
+		5A008E421B14DC4E00C405CE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E411B14DC4E00C405CE /* CoreLocation.framework */; };
+		5A008E441B14DC5500C405CE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E431B14DC5500C405CE /* MobileCoreServices.framework */; };
+		5A008E461B14DC5D00C405CE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E451B14DC5D00C405CE /* QuartzCore.framework */; };
+		5A008E481B14DC6500C405CE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E471B14DC6500C405CE /* Security.framework */; };
+		5A008E4A1B14DC6D00C405CE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E491B14DC6D00C405CE /* StoreKit.framework */; };
+		5A008E4C1B14DC7800C405CE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E4B1B14DC7800C405CE /* SystemConfiguration.framework */; };
+		5A008E4E1B14DC8100C405CE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E4D1B14DC8100C405CE /* libz.dylib */; };
+		5A008E501B14DC8F00C405CE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E4F1B14DC8F00C405CE /* libsqlite3.dylib */; };
+		5A008E551B14EA7700C405CE /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E541B14EA7700C405CE /* PicturesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +83,7 @@
 		5A008DE01B0F671900C405CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A008DE11B0F671900C405CE /* Kids_Menu_PlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kids_Menu_PlannerTests.swift; sourceTree = "<group>"; };
 		5A008DED1B0F754300C405CE /* plusicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusicon.png; sourceTree = "<group>"; };
-		5A008DEF1B0F795800C405CE /* NewProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewProfileViewController.swift; sourceTree = "<group>"; };
+		5A008DEF1B0F795800C405CE /* AddProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProfileViewController.swift; sourceTree = "<group>"; };
 		5A008DF51B0F8AD200C405CE /* bat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bat.png; sourceTree = "<group>"; };
 		5A008DF71B0F8B3300C405CE /* dolphin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dolphin.png; sourceTree = "<group>"; };
 		5A008DF91B0F8BD300C405CE /* butterfly.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = butterfly.png; sourceTree = "<group>"; };
@@ -100,6 +114,20 @@
 		5A008E311B10231100C405CE /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		5A008E331B10237600C405CE /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		5A008E351B10240F00C405CE /* MenuItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsViewController.swift; sourceTree = "<group>"; };
+		5A008E371B14DC0500C405CE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		5A008E381B14DC0500C405CE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		5A008E3B1B14DC3400C405CE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5A008E3D1B14DC3C00C405CE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5A008E3F1B14DC4500C405CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A008E411B14DC4E00C405CE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5A008E431B14DC5500C405CE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		5A008E451B14DC5D00C405CE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5A008E471B14DC6500C405CE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5A008E491B14DC6D00C405CE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		5A008E4B1B14DC7800C405CE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5A008E4D1B14DC8100C405CE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		5A008E4F1B14DC8F00C405CE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		5A008E541B14EA7700C405CE /* PicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +135,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A008E501B14DC8F00C405CE /* libsqlite3.dylib in Frameworks */,
+				5A008E4E1B14DC8100C405CE /* libz.dylib in Frameworks */,
+				5A008E4C1B14DC7800C405CE /* SystemConfiguration.framework in Frameworks */,
+				5A008E4A1B14DC6D00C405CE /* StoreKit.framework in Frameworks */,
+				5A008E481B14DC6500C405CE /* Security.framework in Frameworks */,
+				5A008E461B14DC5D00C405CE /* QuartzCore.framework in Frameworks */,
+				5A008E441B14DC5500C405CE /* MobileCoreServices.framework in Frameworks */,
+				5A008E421B14DC4E00C405CE /* CoreLocation.framework in Frameworks */,
+				5A008E401B14DC4500C405CE /* CoreGraphics.framework in Frameworks */,
+				5A008E3E1B14DC3C00C405CE /* CFNetwork.framework in Frameworks */,
+				5A008E3C1B14DC3400C405CE /* AudioToolbox.framework in Frameworks */,
+				5A008E3A1B14DC0500C405CE /* Parse.framework in Frameworks */,
+				5A008E391B14DC0500C405CE /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,6 +164,7 @@
 		5A008DBD1B0F671900C405CE = {
 			isa = PBXGroup;
 			children = (
+				5A008E531B14DD6D00C405CE /* Frameworks */,
 				5A008DC81B0F671900C405CE /* Kids Menu Planner */,
 				5A008DDE1B0F671900C405CE /* Kids Menu PlannerTests */,
 				5A008DC71B0F671900C405CE /* Products */,
@@ -143,11 +185,12 @@
 			children = (
 				5A008DCB1B0F671900C405CE /* AppDelegate.swift */,
 				5A008DCD1B0F671900C405CE /* ViewController.swift */,
-				5A008DEF1B0F795800C405CE /* NewProfileViewController.swift */,
+				5A008DEF1B0F795800C405CE /* AddProfileViewController.swift */,
 				5A008E331B10237600C405CE /* MealTableViewController.swift */,
 				5A008E311B10231100C405CE /* MealTableViewCell.swift */,
 				5A008E351B10240F00C405CE /* MenuItemsViewController.swift */,
 				5A008DCF1B0F671900C405CE /* Main.storyboard */,
+				5A008E541B14EA7700C405CE /* PicturesViewController.swift */,
 				5A008DD21B0F671900C405CE /* Images.xcassets */,
 				5A008DD41B0F671900C405CE /* LaunchScreen.xib */,
 				5A008DC91B0F671900C405CE /* Supporting Files */,
@@ -158,34 +201,9 @@
 		5A008DC91B0F671900C405CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5A008E111B0FE57400C405CE /* bacon.png */,
-				5A008E1F1B10119C00C405CE /* bananas.png */,
-				5A008DF51B0F8AD200C405CE /* bat.png */,
-				5A008E251B10139200C405CE /* breakfastbar.png */,
-				5A008E291B1014B500C405CE /* breakfastsausage.jpg */,
-				5A008DF91B0F8BD300C405CE /* butterfly.png */,
-				5A008DFB1B0F8CFC00C405CE /* cat.png */,
-				5A008E1D1B10113700C405CE /* cereal.png */,
-				5A008E0B1B0F90D600C405CE /* crab.png */,
-				5A008E091B0F908200C405CE /* dog.png */,
-				5A008DF71B0F8B3300C405CE /* dolphin.png */,
-				5A008E071B0F8FEE00C405CE /* elephant.png */,
-				5A008E1B1B100FE000C405CE /* frenchtoast.png */,
-				5A008E191B100EB800C405CE /* friedegg.jpg */,
-				5A008E2D1B1015E000C405CE /* hamsteak.jpg */,
-				5A008DFD1B0F8DA300C405CE /* horse.png */,
-				5A008E051B0F8F8700C405CE /* lion.png */,
-				5A008E231B10128800C405CE /* melon.png */,
-				5A008E2B1B10151C00C405CE /* oatmeal.jpg */,
-				5A008E0F1B0FE4C800C405CE /* pancakes.jpg */,
-				5A008DFF1B0F8E3E00C405CE /* penguin.png */,
+				5A008E521B14DCB100C405CE /* Animal Icons */,
+				5A008E511B14DCA300C405CE /* Breakfast Foods */,
 				5A008DED1B0F754300C405CE /* plusicon.png */,
-				5A008E011B0F8EAD00C405CE /* scorpion.png */,
-				5A008E271B10142B00C405CE /* scrambledeggs.jpg */,
-				5A008E031B0F8F0B00C405CE /* squirrel.png */,
-				5A008E211B1011DF00C405CE /* strawberries.png */,
-				5A008E171B100D8500C405CE /* toast.png */,
-				5A008E2F1B1016FC00C405CE /* yogurt.png */,
 				5A008DCA1B0F671900C405CE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -206,6 +224,67 @@
 				5A008DE01B0F671900C405CE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A008E511B14DCA300C405CE /* Breakfast Foods */ = {
+			isa = PBXGroup;
+			children = (
+				5A008E111B0FE57400C405CE /* bacon.png */,
+				5A008E1F1B10119C00C405CE /* bananas.png */,
+				5A008E251B10139200C405CE /* breakfastbar.png */,
+				5A008E291B1014B500C405CE /* breakfastsausage.jpg */,
+				5A008E1D1B10113700C405CE /* cereal.png */,
+				5A008E1B1B100FE000C405CE /* frenchtoast.png */,
+				5A008E191B100EB800C405CE /* friedegg.jpg */,
+				5A008E2D1B1015E000C405CE /* hamsteak.jpg */,
+				5A008E231B10128800C405CE /* melon.png */,
+				5A008E2B1B10151C00C405CE /* oatmeal.jpg */,
+				5A008E0F1B0FE4C800C405CE /* pancakes.jpg */,
+				5A008E271B10142B00C405CE /* scrambledeggs.jpg */,
+				5A008E211B1011DF00C405CE /* strawberries.png */,
+				5A008E171B100D8500C405CE /* toast.png */,
+				5A008E2F1B1016FC00C405CE /* yogurt.png */,
+			);
+			name = "Breakfast Foods";
+			sourceTree = "<group>";
+		};
+		5A008E521B14DCB100C405CE /* Animal Icons */ = {
+			isa = PBXGroup;
+			children = (
+				5A008DF51B0F8AD200C405CE /* bat.png */,
+				5A008DF91B0F8BD300C405CE /* butterfly.png */,
+				5A008DFB1B0F8CFC00C405CE /* cat.png */,
+				5A008E0B1B0F90D600C405CE /* crab.png */,
+				5A008E091B0F908200C405CE /* dog.png */,
+				5A008DF71B0F8B3300C405CE /* dolphin.png */,
+				5A008E071B0F8FEE00C405CE /* elephant.png */,
+				5A008DFD1B0F8DA300C405CE /* horse.png */,
+				5A008E051B0F8F8700C405CE /* lion.png */,
+				5A008DFF1B0F8E3E00C405CE /* penguin.png */,
+				5A008E011B0F8EAD00C405CE /* scorpion.png */,
+				5A008E031B0F8F0B00C405CE /* squirrel.png */,
+			);
+			name = "Animal Icons";
+			sourceTree = "<group>";
+		};
+		5A008E531B14DD6D00C405CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A008E4F1B14DC8F00C405CE /* libsqlite3.dylib */,
+				5A008E4D1B14DC8100C405CE /* libz.dylib */,
+				5A008E4B1B14DC7800C405CE /* SystemConfiguration.framework */,
+				5A008E491B14DC6D00C405CE /* StoreKit.framework */,
+				5A008E471B14DC6500C405CE /* Security.framework */,
+				5A008E451B14DC5D00C405CE /* QuartzCore.framework */,
+				5A008E431B14DC5500C405CE /* MobileCoreServices.framework */,
+				5A008E411B14DC4E00C405CE /* CoreLocation.framework */,
+				5A008E3F1B14DC4500C405CE /* CoreGraphics.framework */,
+				5A008E3D1B14DC3C00C405CE /* CFNetwork.framework */,
+				5A008E3B1B14DC3400C405CE /* AudioToolbox.framework */,
+				5A008E371B14DC0500C405CE /* Bolts.framework */,
+				5A008E381B14DC0500C405CE /* Parse.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,8 +417,9 @@
 			files = (
 				5A008E341B10237600C405CE /* MealTableViewController.swift in Sources */,
 				5A008E321B10231100C405CE /* MealTableViewCell.swift in Sources */,
-				5A008DF01B0F795800C405CE /* NewProfileViewController.swift in Sources */,
+				5A008DF01B0F795800C405CE /* AddProfileViewController.swift in Sources */,
 				5A008DCE1B0F671900C405CE /* ViewController.swift in Sources */,
+				5A008E551B14EA7700C405CE /* PicturesViewController.swift in Sources */,
 				5A008E361B10240F00C405CE /* MenuItemsViewController.swift in Sources */,
 				5A008DCC1B0F671900C405CE /* AppDelegate.swift in Sources */,
 			);
@@ -466,6 +546,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Kids Menu Planner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,6 +560,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Kids Menu Planner/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
