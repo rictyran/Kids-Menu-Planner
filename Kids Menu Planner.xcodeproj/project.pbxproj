@@ -44,7 +44,6 @@
 		5A008E301B1016FC00C405CE /* yogurt.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E2F1B1016FC00C405CE /* yogurt.png */; };
 		5A008E321B10231100C405CE /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E311B10231100C405CE /* MealTableViewCell.swift */; };
 		5A008E341B10237600C405CE /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E331B10237600C405CE /* MealTableViewController.swift */; };
-		5A008E361B10240F00C405CE /* MenuItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E351B10240F00C405CE /* MenuItemsViewController.swift */; };
 		5A008E391B14DC0500C405CE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E371B14DC0500C405CE /* Bolts.framework */; };
 		5A008E3A1B14DC0500C405CE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E381B14DC0500C405CE /* Parse.framework */; };
 		5A008E3C1B14DC3400C405CE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E3B1B14DC3400C405CE /* AudioToolbox.framework */; };
@@ -59,6 +58,8 @@
 		5A008E4E1B14DC8100C405CE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E4D1B14DC8100C405CE /* libz.dylib */; };
 		5A008E501B14DC8F00C405CE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A008E4F1B14DC8F00C405CE /* libsqlite3.dylib */; };
 		5A008E551B14EA7700C405CE /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E541B14EA7700C405CE /* PicturesViewController.swift */; };
+		5A008E571B168C7A00C405CE /* BreakfastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E561B168C7A00C405CE /* BreakfastCollectionViewCell.swift */; };
+		5A008E591B168D6200C405CE /* BreafastItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E581B168D6200C405CE /* BreafastItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,7 +114,6 @@
 		5A008E2F1B1016FC00C405CE /* yogurt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yogurt.png; sourceTree = "<group>"; };
 		5A008E311B10231100C405CE /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		5A008E331B10237600C405CE /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
-		5A008E351B10240F00C405CE /* MenuItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemsViewController.swift; sourceTree = "<group>"; };
 		5A008E371B14DC0500C405CE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		5A008E381B14DC0500C405CE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		5A008E3B1B14DC3400C405CE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -128,6 +128,8 @@
 		5A008E4D1B14DC8100C405CE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		5A008E4F1B14DC8F00C405CE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		5A008E541B14EA7700C405CE /* PicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesViewController.swift; sourceTree = "<group>"; };
+		5A008E561B168C7A00C405CE /* BreakfastCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakfastCollectionViewCell.swift; sourceTree = "<group>"; };
+		5A008E581B168D6200C405CE /* BreafastItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreafastItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,8 +190,9 @@
 				5A008DEF1B0F795800C405CE /* AddProfileViewController.swift */,
 				5A008E331B10237600C405CE /* MealTableViewController.swift */,
 				5A008E311B10231100C405CE /* MealTableViewCell.swift */,
-				5A008E351B10240F00C405CE /* MenuItemsViewController.swift */,
 				5A008DCF1B0F671900C405CE /* Main.storyboard */,
+				5A008E581B168D6200C405CE /* BreafastItemsViewController.swift */,
+				5A008E561B168C7A00C405CE /* BreakfastCollectionViewCell.swift */,
 				5A008E541B14EA7700C405CE /* PicturesViewController.swift */,
 				5A008DD21B0F671900C405CE /* Images.xcassets */,
 				5A008DD41B0F671900C405CE /* LaunchScreen.xib */,
@@ -417,10 +420,11 @@
 			files = (
 				5A008E341B10237600C405CE /* MealTableViewController.swift in Sources */,
 				5A008E321B10231100C405CE /* MealTableViewCell.swift in Sources */,
+				5A008E591B168D6200C405CE /* BreafastItemsViewController.swift in Sources */,
+				5A008E571B168C7A00C405CE /* BreakfastCollectionViewCell.swift in Sources */,
 				5A008DF01B0F795800C405CE /* AddProfileViewController.swift in Sources */,
 				5A008DCE1B0F671900C405CE /* ViewController.swift in Sources */,
 				5A008E551B14EA7700C405CE /* PicturesViewController.swift in Sources */,
-				5A008E361B10240F00C405CE /* MenuItemsViewController.swift in Sources */,
 				5A008DCC1B0F671900C405CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

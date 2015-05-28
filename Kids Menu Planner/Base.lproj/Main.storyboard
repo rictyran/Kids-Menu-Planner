@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BLo-kf-Llm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Put-On-Ydv">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -80,9 +81,6 @@
                                 <state key="normal" title="Button" image="crab.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="wRD-PX-hXD" kind="show" id="Zyd-9F-oNR"/>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V20-H1-ICK">
                                 <rect key="frame" x="226" y="118" width="80" height="80"/>
@@ -125,178 +123,86 @@
             </objects>
             <point key="canvasLocation" x="260.5" y="369.5"/>
         </scene>
-        <!--Meal Table View Controller-->
-        <scene sceneID="3HL-Q5-xH8">
+        <!--View Controller-->
+        <scene sceneID="whH-Ro-n6U">
             <objects>
-                <tableViewController id="wRD-PX-hXD" customClass="MealTableViewController" customModule="Kids_Menu_Planner" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="22" sectionFooterHeight="22" id="aHF-d9-Jkm">
+                <viewController id="aQo-dU-0tG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i9K-cl-7gM"/>
+                        <viewControllerLayoutGuide type="bottom" id="jRm-AW-gyB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="D9D-tV-bOk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <color key="sectionIndexBackgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="l9z-Jh-4ma">
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l9z-Jh-4ma" id="F2u-xG-SOG">
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="10v-8n-S9u">
-                                            <rect key="frame" x="94" y="20" width="40" height="40"/>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="njn-2Y-CQO">
-                                            <rect key="frame" x="152" y="20" width="40" height="40"/>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MLr-qf-ZUO">
-                                            <rect key="frame" x="208" y="20" width="40" height="40"/>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oEM-ts-Ecf">
-                                            <rect key="frame" x="266" y="20" width="40" height="40"/>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vUz-H3-1mA">
-                                            <rect key="frame" x="321" y="20" width="40" height="40"/>
-                                        </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEI-cg-ztC">
-                                            <rect key="frame" x="19" y="29" width="42" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="BLo-kf-Llm" kind="popoverPresentation" popoverAnchorView="l9z-Jh-4ma" id="Nr1-pp-R06">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="wRD-PX-hXD" id="bf8-Si-2l3"/>
-                            <outlet property="delegate" destination="wRD-PX-hXD" id="JfQ-md-Kq1"/>
-                        </connections>
-                    </tableView>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jbE-ro-mhX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qte-Ji-sld" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="260.5" y="1163.5"/>
         </scene>
-        <!--Menu Items View Controller-->
-        <scene sceneID="hod-sz-bfj">
+        <!--Breafast Items View Controller-->
+        <scene sceneID="hmX-Y8-6sD">
             <objects>
-                <viewController id="BLo-kf-Llm" customClass="MenuItemsViewController" customModule="Kids_Menu_Planner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Put-On-Ydv" customClass="BreafastItemsViewController" customModule="Kids_Menu_Planner" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="76s-UQ-REC"/>
-                        <viewControllerLayoutGuide type="bottom" id="vjX-Ha-MbV"/>
+                        <viewControllerLayoutGuide type="top" id="BLf-Tq-x4m"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lus-Zk-8sp"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FKQ-D6-JaT">
+                    <view key="view" contentMode="scaleToFill" id="UNF-hh-PrW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lunch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mGz-pM-Csi">
-                                <rect key="frame" x="160" y="298" width="54" height="22"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dinner" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PD3-HX-W3W">
-                                <rect key="frame" x="156" y="444" width="57" height="22"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bacon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ch5-0Z-HCC">
-                                <rect key="frame" x="164" y="232" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pancakes.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kP3-vZ-HOc">
-                                <rect key="frame" x="97" y="91" width="40" height="40"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="frenchtoast.png" translatesAutoresizingMaskIntoConstraints="NO" id="zuv-Hz-9gQ">
-                                <rect key="frame" x="164" y="91" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="toast.png" translatesAutoresizingMaskIntoConstraints="NO" id="FvJ-W5-JCJ">
-                                <rect key="frame" x="232" y="91" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="friedegg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="XSk-mb-cDv">
-                                <rect key="frame" x="97" y="232" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cereal.png" translatesAutoresizingMaskIntoConstraints="NO" id="UI9-PG-ZHT">
-                                <rect key="frame" x="36" y="91" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bananas.png" translatesAutoresizingMaskIntoConstraints="NO" id="pHW-RP-HFf">
-                                <rect key="frame" x="97" y="160" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="strawberries.png" translatesAutoresizingMaskIntoConstraints="NO" id="RaS-zb-fmY">
-                                <rect key="frame" x="165" y="160" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="melon.png" translatesAutoresizingMaskIntoConstraints="NO" id="cUq-1N-pAX">
-                                <rect key="frame" x="232" y="160" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breakfastbar.png" translatesAutoresizingMaskIntoConstraints="NO" id="mQG-I9-O08">
-                                <rect key="frame" x="299" y="91" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="scrambledeggs.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="S3z-1F-Yeg">
-                                <rect key="frame" x="36" y="232" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="breakfastsausage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8xH-zs-uZh">
-                                <rect key="frame" x="232" y="232" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oatmeal.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="T7a-WA-U4s">
-                                <rect key="frame" x="36" y="160" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hamsteak.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Jt7-vv-P7L">
-                                <rect key="frame" x="299" y="232" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yogurt.png" translatesAutoresizingMaskIntoConstraints="NO" id="I4N-cy-SNd">
-                                <rect key="frame" x="299" y="160" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qjN-58-SHI">
-                                <rect key="frame" x="0.0" y="288" width="375" height="2"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iz2-Gr-Sl2">
-                                <rect key="frame" x="0.0" y="434" width="375" height="2"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                            </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iO7-Iu-Ddc">
-                                <rect key="frame" x="0.0" y="17" width="375" height="44"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7LZ-FQ-kwm">
+                                <rect key="frame" x="0.0" y="90" width="375" height="577"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kYs-u2-vgd">
+                                    <size key="itemSize" width="80" height="80"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="2bt-Jb-Wmy" customClass="BreakfastCollectionViewCell" customModule="Kids_Menu_Planner" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fAg-bv-74Y">
+                                                    <rect key="frame" x="15" y="8" width="50" height="50"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuO-o8-lPo">
+                                                    <rect key="frame" x="0.0" y="59" width="80" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <connections>
+                                            <outlet property="breakfastImageCell" destination="fAg-bv-74Y" id="ll0-bQ-jsL"/>
+                                            <outlet property="breakfastLabelCell" destination="HuO-o8-lPo" id="8L5-SO-VwF"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="Put-On-Ydv" id="VEm-DV-h6h"/>
+                                    <outlet property="delegate" destination="Put-On-Ydv" id="D1e-xK-9wX"/>
+                                </connections>
+                            </collectionView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iO7-Iu-Ddc">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <textAttributes key="titleTextAttributes">
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </textAttributes>
                                 <items>
-                                    <navigationItem title="Menu Items" id="qzw-zv-VPC">
+                                    <navigationItem title="Breakfast Items" id="qzw-zv-VPC">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="Ia4-PR-Rg0">
                                             <color key="tintColor" red="0.49666389230000002" green="0.72992315249999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <connections>
-                                                <segue destination="wRD-PX-hXD" kind="show" id="LGP-FI-yYe"/>
-                                            </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Save" id="ZWM-aK-HTc">
                                             <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -304,20 +210,24 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breakfast" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eww-yI-7jF">
-                                <rect key="frame" x="146" y="66" width="83" height="22"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="iO7-Iu-Ddc" secondAttribute="trailing" constant="-16" id="040-lw-aZZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7LZ-FQ-kwm" secondAttribute="trailing" constant="-16" id="4lK-rC-eaS"/>
+                            <constraint firstItem="7LZ-FQ-kwm" firstAttribute="top" secondItem="BLf-Tq-x4m" secondAttribute="bottom" constant="70" id="CnD-nF-QYA"/>
+                            <constraint firstItem="iO7-Iu-Ddc" firstAttribute="leading" secondItem="UNF-hh-PrW" secondAttribute="leadingMargin" constant="-16" id="Ek8-TB-9rz"/>
+                            <constraint firstItem="7LZ-FQ-kwm" firstAttribute="top" secondItem="iO7-Iu-Ddc" secondAttribute="bottom" constant="26" id="cIv-Ea-JPM"/>
+                            <constraint firstItem="Lus-Zk-8sp" firstAttribute="top" secondItem="7LZ-FQ-kwm" secondAttribute="bottom" id="rQ2-hL-5em"/>
+                            <constraint firstItem="iO7-Iu-Ddc" firstAttribute="top" secondItem="BLf-Tq-x4m" secondAttribute="bottom" id="t6h-Jq-Kb6"/>
+                            <constraint firstItem="7LZ-FQ-kwm" firstAttribute="leading" secondItem="UNF-hh-PrW" secondAttribute="leadingMargin" constant="-16" id="wbV-Ry-Iqp"/>
+                        </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ea6-4D-WQm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6hV-hk-1Fj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="918.5" y="1163.5"/>
+            <point key="canvasLocation" x="684.5" y="1163.5"/>
         </scene>
         <!--Title-->
         <scene sceneID="RHM-jv-yag">
@@ -392,9 +302,6 @@
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Save" id="eF6-jX-tAX">
                                             <color key="tintColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <connections>
-                                                <segue destination="wRD-PX-hXD" kind="show" id="pQe-Vy-Jgs"/>
-                                            </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
@@ -485,37 +392,21 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bacon.png" width="300" height="247"/>
-        <image name="bananas.png" width="600" height="600"/>
         <image name="bat.png" width="256" height="256"/>
-        <image name="breakfastbar.png" width="599" height="312"/>
-        <image name="breakfastsausage.jpg" width="320" height="320"/>
         <image name="butterfly.png" width="256" height="256"/>
         <image name="cat.png" width="256" height="256"/>
-        <image name="cereal.png" width="270" height="202"/>
         <image name="crab.png" width="256" height="256"/>
         <image name="dog.png" width="256" height="256"/>
         <image name="dolphin.png" width="256" height="256"/>
         <image name="elephant.png" width="256" height="256"/>
-        <image name="frenchtoast.png" width="535" height="367"/>
-        <image name="friedegg.jpg" width="468" height="434"/>
-        <image name="hamsteak.jpg" width="585" height="444"/>
         <image name="horse.png" width="256" height="256"/>
         <image name="lion.png" width="256" height="256"/>
-        <image name="melon.png" width="800" height="609"/>
-        <image name="oatmeal.jpg" width="1024" height="759"/>
-        <image name="pancakes.jpg" width="1000" height="853"/>
         <image name="penguin.png" width="256" height="256"/>
         <image name="plusicon.png" width="512" height="512"/>
         <image name="scorpion.png" width="256" height="256"/>
-        <image name="scrambledeggs.jpg" width="380" height="255"/>
         <image name="squirrel.png" width="256" height="256"/>
-        <image name="strawberries.png" width="1117" height="1128"/>
-        <image name="toast.png" width="1991" height="1822"/>
-        <image name="yogurt.png" width="272" height="222"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8iB-PV-Hon"/>
-        <segue reference="pQe-Vy-Jgs"/>
     </inferredMetricsTieBreakers>
 </document>
