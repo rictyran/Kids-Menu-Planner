@@ -12,4 +12,5 @@ class BreakfastCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet var breakfastImageCell: UIImageView!
     @IBOutlet var breakfastLabelCell: UILabel!
+    
 }

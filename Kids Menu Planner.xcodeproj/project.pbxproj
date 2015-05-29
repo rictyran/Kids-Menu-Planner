@@ -27,20 +27,13 @@
 		5A008E081B0F8FEE00C405CE /* elephant.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E071B0F8FEE00C405CE /* elephant.png */; };
 		5A008E0A1B0F908200C405CE /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E091B0F908200C405CE /* dog.png */; };
 		5A008E0C1B0F90D600C405CE /* crab.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E0B1B0F90D600C405CE /* crab.png */; };
-		5A008E101B0FE4C800C405CE /* pancakes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E0F1B0FE4C800C405CE /* pancakes.jpg */; };
 		5A008E121B0FE57400C405CE /* bacon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E111B0FE57400C405CE /* bacon.png */; };
 		5A008E181B100D8500C405CE /* toast.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E171B100D8500C405CE /* toast.png */; };
-		5A008E1A1B100EB800C405CE /* friedegg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E191B100EB800C405CE /* friedegg.jpg */; };
 		5A008E1C1B100FE000C405CE /* frenchtoast.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E1B1B100FE000C405CE /* frenchtoast.png */; };
 		5A008E1E1B10113700C405CE /* cereal.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E1D1B10113700C405CE /* cereal.png */; };
-		5A008E201B10119C00C405CE /* bananas.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E1F1B10119C00C405CE /* bananas.png */; };
 		5A008E221B1011DF00C405CE /* strawberries.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E211B1011DF00C405CE /* strawberries.png */; };
 		5A008E241B10128800C405CE /* melon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E231B10128800C405CE /* melon.png */; };
 		5A008E261B10139200C405CE /* breakfastbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E251B10139200C405CE /* breakfastbar.png */; };
-		5A008E281B10142B00C405CE /* scrambledeggs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E271B10142B00C405CE /* scrambledeggs.jpg */; };
-		5A008E2A1B1014B500C405CE /* breakfastsausage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E291B1014B500C405CE /* breakfastsausage.jpg */; };
-		5A008E2C1B10151C00C405CE /* oatmeal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E2B1B10151C00C405CE /* oatmeal.jpg */; };
-		5A008E2E1B1015E000C405CE /* hamsteak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E2D1B1015E000C405CE /* hamsteak.jpg */; };
 		5A008E301B1016FC00C405CE /* yogurt.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E2F1B1016FC00C405CE /* yogurt.png */; };
 		5A008E321B10231100C405CE /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E311B10231100C405CE /* MealTableViewCell.swift */; };
 		5A008E341B10237600C405CE /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E331B10237600C405CE /* MealTableViewController.swift */; };
@@ -60,6 +53,14 @@
 		5A008E551B14EA7700C405CE /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E541B14EA7700C405CE /* PicturesViewController.swift */; };
 		5A008E571B168C7A00C405CE /* BreakfastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E561B168C7A00C405CE /* BreakfastCollectionViewCell.swift */; };
 		5A008E591B168D6200C405CE /* BreafastItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E581B168D6200C405CE /* BreafastItemsViewController.swift */; };
+		5A008E5B1B16A27B00C405CE /* PicturesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A008E5A1B16A27B00C405CE /* PicturesCollectionViewCell.swift */; };
+		5A008E611B16BEBA00C405CE /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E601B16BEBA00C405CE /* banana.png */; };
+		5A008E6D1B16C31E00C405CE /* friedegg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E6C1B16C31E00C405CE /* friedegg.png */; };
+		5A008E6F1B16C4A600C405CE /* breakfastsausage.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E6E1B16C4A600C405CE /* breakfastsausage.png */; };
+		5A008E711B16C51000C405CE /* hamsteak.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E701B16C51000C405CE /* hamsteak.png */; };
+		5A008E731B16C5AF00C405CE /* oatmeal.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E721B16C5AF00C405CE /* oatmeal.png */; };
+		5A008E751B16C64A00C405CE /* pancakes.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E741B16C64A00C405CE /* pancakes.png */; };
+		5A008E771B16C75000C405CE /* scrambledeggs.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A008E761B16C75000C405CE /* scrambledeggs.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,20 +98,13 @@
 		5A008E071B0F8FEE00C405CE /* elephant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elephant.png; sourceTree = "<group>"; };
 		5A008E091B0F908200C405CE /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
 		5A008E0B1B0F90D600C405CE /* crab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crab.png; sourceTree = "<group>"; };
-		5A008E0F1B0FE4C800C405CE /* pancakes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pancakes.jpg; sourceTree = "<group>"; };
 		5A008E111B0FE57400C405CE /* bacon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bacon.png; sourceTree = "<group>"; };
 		5A008E171B100D8500C405CE /* toast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast.png; sourceTree = "<group>"; };
-		5A008E191B100EB800C405CE /* friedegg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = friedegg.jpg; sourceTree = "<group>"; };
 		5A008E1B1B100FE000C405CE /* frenchtoast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frenchtoast.png; sourceTree = "<group>"; };
 		5A008E1D1B10113700C405CE /* cereal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cereal.png; sourceTree = "<group>"; };
-		5A008E1F1B10119C00C405CE /* bananas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bananas.png; sourceTree = "<group>"; };
 		5A008E211B1011DF00C405CE /* strawberries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strawberries.png; sourceTree = "<group>"; };
 		5A008E231B10128800C405CE /* melon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = melon.png; sourceTree = "<group>"; };
 		5A008E251B10139200C405CE /* breakfastbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breakfastbar.png; sourceTree = "<group>"; };
-		5A008E271B10142B00C405CE /* scrambledeggs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scrambledeggs.jpg; sourceTree = "<group>"; };
-		5A008E291B1014B500C405CE /* breakfastsausage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = breakfastsausage.jpg; sourceTree = "<group>"; };
-		5A008E2B1B10151C00C405CE /* oatmeal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oatmeal.jpg; sourceTree = "<group>"; };
-		5A008E2D1B1015E000C405CE /* hamsteak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hamsteak.jpg; sourceTree = "<group>"; };
 		5A008E2F1B1016FC00C405CE /* yogurt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yogurt.png; sourceTree = "<group>"; };
 		5A008E311B10231100C405CE /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		5A008E331B10237600C405CE /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +124,14 @@
 		5A008E541B14EA7700C405CE /* PicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesViewController.swift; sourceTree = "<group>"; };
 		5A008E561B168C7A00C405CE /* BreakfastCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreakfastCollectionViewCell.swift; sourceTree = "<group>"; };
 		5A008E581B168D6200C405CE /* BreafastItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreafastItemsViewController.swift; sourceTree = "<group>"; };
+		5A008E5A1B16A27B00C405CE /* PicturesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PicturesCollectionViewCell.swift; path = ../PicturesCollectionViewCell.swift; sourceTree = "<group>"; };
+		5A008E601B16BEBA00C405CE /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
+		5A008E6C1B16C31E00C405CE /* friedegg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = friedegg.png; sourceTree = "<group>"; };
+		5A008E6E1B16C4A600C405CE /* breakfastsausage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breakfastsausage.png; sourceTree = "<group>"; };
+		5A008E701B16C51000C405CE /* hamsteak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamsteak.png; sourceTree = "<group>"; };
+		5A008E721B16C5AF00C405CE /* oatmeal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oatmeal.png; sourceTree = "<group>"; };
+		5A008E741B16C64A00C405CE /* pancakes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pancakes.png; sourceTree = "<group>"; };
+		5A008E761B16C75000C405CE /* scrambledeggs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrambledeggs.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,12 +190,13 @@
 				5A008DCB1B0F671900C405CE /* AppDelegate.swift */,
 				5A008DCD1B0F671900C405CE /* ViewController.swift */,
 				5A008DEF1B0F795800C405CE /* AddProfileViewController.swift */,
+				5A008E541B14EA7700C405CE /* PicturesViewController.swift */,
+				5A008E5A1B16A27B00C405CE /* PicturesCollectionViewCell.swift */,
 				5A008E331B10237600C405CE /* MealTableViewController.swift */,
 				5A008E311B10231100C405CE /* MealTableViewCell.swift */,
 				5A008DCF1B0F671900C405CE /* Main.storyboard */,
 				5A008E581B168D6200C405CE /* BreafastItemsViewController.swift */,
 				5A008E561B168C7A00C405CE /* BreakfastCollectionViewCell.swift */,
-				5A008E541B14EA7700C405CE /* PicturesViewController.swift */,
 				5A008DD21B0F671900C405CE /* Images.xcassets */,
 				5A008DD41B0F671900C405CE /* LaunchScreen.xib */,
 				5A008DC91B0F671900C405CE /* Supporting Files */,
@@ -233,17 +236,17 @@
 			isa = PBXGroup;
 			children = (
 				5A008E111B0FE57400C405CE /* bacon.png */,
-				5A008E1F1B10119C00C405CE /* bananas.png */,
+				5A008E601B16BEBA00C405CE /* banana.png */,
 				5A008E251B10139200C405CE /* breakfastbar.png */,
-				5A008E291B1014B500C405CE /* breakfastsausage.jpg */,
+				5A008E6E1B16C4A600C405CE /* breakfastsausage.png */,
 				5A008E1D1B10113700C405CE /* cereal.png */,
 				5A008E1B1B100FE000C405CE /* frenchtoast.png */,
-				5A008E191B100EB800C405CE /* friedegg.jpg */,
-				5A008E2D1B1015E000C405CE /* hamsteak.jpg */,
+				5A008E6C1B16C31E00C405CE /* friedegg.png */,
+				5A008E701B16C51000C405CE /* hamsteak.png */,
 				5A008E231B10128800C405CE /* melon.png */,
-				5A008E2B1B10151C00C405CE /* oatmeal.jpg */,
-				5A008E0F1B0FE4C800C405CE /* pancakes.jpg */,
-				5A008E271B10142B00C405CE /* scrambledeggs.jpg */,
+				5A008E721B16C5AF00C405CE /* oatmeal.png */,
+				5A008E741B16C64A00C405CE /* pancakes.png */,
+				5A008E761B16C75000C405CE /* scrambledeggs.png */,
 				5A008E211B1011DF00C405CE /* strawberries.png */,
 				5A008E171B100D8500C405CE /* toast.png */,
 				5A008E2F1B1016FC00C405CE /* yogurt.png */,
@@ -372,20 +375,19 @@
 			files = (
 				5A008E221B1011DF00C405CE /* strawberries.png in Resources */,
 				5A008DD11B0F671900C405CE /* Main.storyboard in Resources */,
-				5A008E101B0FE4C800C405CE /* pancakes.jpg in Resources */,
+				5A008E771B16C75000C405CE /* scrambledeggs.png in Resources */,
 				5A008DFE1B0F8DA300C405CE /* horse.png in Resources */,
-				5A008E1A1B100EB800C405CE /* friedegg.jpg in Resources */,
-				5A008E2C1B10151C00C405CE /* oatmeal.jpg in Resources */,
 				5A008E261B10139200C405CE /* breakfastbar.png in Resources */,
 				5A008E041B0F8F0B00C405CE /* squirrel.png in Resources */,
+				5A008E611B16BEBA00C405CE /* banana.png in Resources */,
 				5A008E0C1B0F90D600C405CE /* crab.png in Resources */,
-				5A008E281B10142B00C405CE /* scrambledeggs.jpg in Resources */,
 				5A008DF61B0F8AD200C405CE /* bat.png in Resources */,
 				5A008DFC1B0F8CFC00C405CE /* cat.png in Resources */,
 				5A008E021B0F8EAD00C405CE /* scorpion.png in Resources */,
+				5A008E731B16C5AF00C405CE /* oatmeal.png in Resources */,
 				5A008E0A1B0F908200C405CE /* dog.png in Resources */,
 				5A008E1C1B100FE000C405CE /* frenchtoast.png in Resources */,
-				5A008E2E1B1015E000C405CE /* hamsteak.jpg in Resources */,
+				5A008E6F1B16C4A600C405CE /* breakfastsausage.png in Resources */,
 				5A008E121B0FE57400C405CE /* bacon.png in Resources */,
 				5A008DEE1B0F754300C405CE /* plusicon.png in Resources */,
 				5A008DFA1B0F8BD300C405CE /* butterfly.png in Resources */,
@@ -395,12 +397,13 @@
 				5A008E1E1B10113700C405CE /* cereal.png in Resources */,
 				5A008E301B1016FC00C405CE /* yogurt.png in Resources */,
 				5A008E241B10128800C405CE /* melon.png in Resources */,
+				5A008E711B16C51000C405CE /* hamsteak.png in Resources */,
+				5A008E6D1B16C31E00C405CE /* friedegg.png in Resources */,
 				5A008E001B0F8E3E00C405CE /* penguin.png in Resources */,
-				5A008E2A1B1014B500C405CE /* breakfastsausage.jpg in Resources */,
 				5A008E081B0F8FEE00C405CE /* elephant.png in Resources */,
 				5A008DD31B0F671900C405CE /* Images.xcassets in Resources */,
 				5A008E181B100D8500C405CE /* toast.png in Resources */,
-				5A008E201B10119C00C405CE /* bananas.png in Resources */,
+				5A008E751B16C64A00C405CE /* pancakes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +429,7 @@
 				5A008DCE1B0F671900C405CE /* ViewController.swift in Sources */,
 				5A008E551B14EA7700C405CE /* PicturesViewController.swift in Sources */,
 				5A008DCC1B0F671900C405CE /* AppDelegate.swift in Sources */,
+				5A008E5B1B16A27B00C405CE /* PicturesCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

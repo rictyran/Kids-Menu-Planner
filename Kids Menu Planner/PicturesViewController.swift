@@ -8,12 +8,31 @@
 
 import UIKit
 
-class PicturesViewController: UIViewController {
+class PicturesViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
+    var picturesImages: [String] = ["bat.png","butterfly.png","cat.png","crab.png","dog.png","dolphin.png","elephant.png","horse.png","lion.png","penguin.png","scorpion.png","squirrel.png"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
 
-        // Do any additional setup after loading the view.
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return picturesImages.count
+    }
+    
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        let cell: PicturesCollectionViewCell = collectionView.dequeueReusableCellWithReuseIdentifier("PicturesCell", forIndexPath: indexPath) as PicturesCollectionViewCell
+        cell.picturesImage.image = UIImage(named: picturesImages[indexPath.row])
+        return cell
+    }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        println("Cell \(indexPath.row) selected")
+        
+        var cell : UICollectionViewCell = collectionView.cellForItemAtIndexPath(indexPath)!
+        cell.backgroundColor = UIColor.whiteColor()
+        
     }
 
     override func didReceiveMemoryWarning() {

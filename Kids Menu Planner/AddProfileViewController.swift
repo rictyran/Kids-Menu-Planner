@@ -9,8 +9,25 @@
 import UIKit
 
 
+
 class AddProfileViewController: UIViewController {
 
+    @IBOutlet var nameTextField: UITextField!
+    
+    @IBOutlet var addProfileImage: UIView!
+    
+    @IBAction func goToPicturesButton(sender: AnyObject) {
+    }
+    
+    @IBAction func saveNewProfileButton(sender: AnyObject) {
+    
+    
+    
+    
+    
+    
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +36,24 @@ class AddProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+        view.endEditing(true)
+        super.touchesBegan(touches, withEvent: event)
+    }
+    
+//    func addProfile() {
+//        
+//        println("addProfile")
+//        
+//        var user = PFUser()
+//        
+//        user.username = nameTextField.text
+//        user.image = 
+//        
+//    }
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

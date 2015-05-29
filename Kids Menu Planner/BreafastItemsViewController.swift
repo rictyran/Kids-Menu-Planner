@@ -11,7 +11,7 @@ import UIKit
 class BreafastItemsViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
     var breakfastData: [String] = ["bacon","bananas","cereal bar","sausage","cereal","french toast","fried egg","ham","melon","oatmeal","pancakes","scrambled eggs","strawberries","toast","yogurt"]
-    var breakfastImages: [String] = ["bacon.png","bananas.png","breakfastbar.png","breakfastsausage.jpg","cereal.png","frenchtoast.png","friedegg.jpg","hamsteak.jpg","melon.png","oatmeal.jpg","pancakes.jpg","scrambledeggs.jpg","strawberries.png","toast.png","yogurt.png"]
+    var breakfastImages: [String] = ["bacon.png","banana.png","breakfastbar.png","breakfastsausage.png","cereal.png","frenchtoast.png","friedegg.png","hamsteak.png","melon.png","oatmeal.png","pancakes.png","scrambledeggs.png","strawberries.png","toast.png","yogurt.png"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +31,10 @@ class BreafastItemsViewController: UIViewController, UICollectionViewDataSource,
     }
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+//      cell.backgroundColor = UIColor.yellowColor()
         println("Cell \(indexPath.row) selected")
+        
     }
     
     
